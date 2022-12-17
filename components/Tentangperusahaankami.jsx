@@ -5,8 +5,8 @@ import Kesehatan from '../public/assets/um.jpg'
 export default function Tentangperusahaankami () {
   return (
     <div className='h-full w-full'>
-        <div className='h-auto w-auto'>
-            <div className='grid md:grid-cols-2 pt-28'>
+        <div className='h-auto w-auto px-12'>
+            <div className='grid md:grid-cols-2 pt-28 gap-8'>
                 <div>
                     <Image src={Kesehatan}/>
                 </div>
