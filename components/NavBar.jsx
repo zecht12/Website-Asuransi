@@ -128,8 +128,8 @@ return (
                     <Image src={Logo} alt="LOGO" width={30} height={30}/>
                 </div>
                 <div>
-                    <div className=' relative'>
-                        <div className="absolute top-3 left-3 items-center" ref={clickPoint}>
+                    <div className='relative'>
+                        <div className="absolute top-3 left-2 items-center" ref={clickPoint}>
                             <GrSearch/>
                         </div>
                     <input type="text"className=' block pl-7 py-2 pl-8 w-50 text-gray-900 bg-white rounded-lg border border-black focus:pl-1'

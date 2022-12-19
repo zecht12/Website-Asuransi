@@ -12,7 +12,7 @@ export default function Homepage () {
                 <div>
                     <Image src={Kesehatan}/>
                 </div>
-                <div className='grid text-3xl md:text-6xl'>
+                <div className='grid text-2xl md:text-6xl'>
                     Perlindungan Kesehatan yang Fleksibel dan Komprehensif
                 </div>
             </div>
