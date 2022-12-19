@@ -28,10 +28,10 @@ const NavBar = () => {
 
 function MobileNav({open, setOpen}) {
 return (
-    <div className={`absolute top-0 left-0 h-screen w-1/3 bg-white transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-500 ease-in-out filter `}>
+    <div className={`absolute top-0 left-0 h-screen w-1/3 bg-white transform ${open ? " -translate-y-0" : "-translate-y-full"} transition-transform duration-500 ease-in-out filter `}>
         <div className="mx-auto w-full max-w-md rounded-2xl bg-transparent p-2 pt-36">
             <Disclosure>{({ open }) => (
-                <>
+                <div>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-transparent px-4 py-2 text-left font-medium text-black hover:bg-transparent focus:outline-none focus-visible:ring focus-visible:bg-transparent focus-visible:ring-opacity-75">
                         <span className='text-2xl font-bold'>Produk Kami</span>
                         <AiOutlineDown className={`${open ? 'rotate-180 transform' : ''} h-5 w-5 text-black`}/>
@@ -48,11 +48,11 @@ return (
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-black/90 text-xl">
                         <Link href='./Pageperlindunganbebaspremi'>Perlindungan Bebas Premi</Link>
                     </Disclosure.Panel>
-                </>
+                </div>
                 )}
             </Disclosure>
             <Disclosure>{({ open }) => (
-                <>
+                <div>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-transparent px-4 py-2 text-left text-sm font-medium text-black hover:bg-transparent focus:outline-none focus-visible:ring focus-visible:bg-transparent focus-visible:ring-opacity-75">
                         <span className='text-2xl font-bold'>Klaim Dan Layanan</span>
                         <AiOutlineDown className={`${open ? 'rotate-180 transform' : ''} h-5 w-5 text-black`}/>
@@ -66,11 +66,11 @@ return (
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-black/90 text-xl">
                         <Link href='./Pagemitrabisnis'>Daftar Mitra Bisnis</Link>
                     </Disclosure.Panel>
-                </>
+                </div>
                 )}
             </Disclosure>
             <Disclosure>{({ open }) => (
-                <>
+                <div>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-transparent px-4 py-2 text-left text-sm font-medium text-black hover:bg-transparent focus:outline-none focus-visible:ring focus-visible:bg-transparent focus-visible:ring-opacity-75">
                         <span className='text-2xl font-bold'>Tentang Kami</span>
                         <AiOutlineDown className={`${open ? 'rotate-180 transform' : ''} h-5 w-5 text-black`}/>
@@ -87,15 +87,15 @@ return (
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-black/90 text-xl">
                         <Link href='./Pagekebijakanprivasi'>Kebijakan Privasi</Link>
                     </Disclosure.Panel>
-                </>
+                </div>
                 )}
             </Disclosure>
             <Disclosure>{({ open }) => (
-                <>
+                <div>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-transparent px-4 py-2 text-left text-sm font-medium text-black hover:bg-transparent focus:outline-none focus-visible:ring focus-visible:bg-transparent focus-visible:ring-opacity-75">
                         <span className='text-2xl font-bold'><Link href='./Pagehubungikami'>Hubungi Kami</Link></span>
                     </Disclosure.Button>
-                </>
+                </div>
                 )}
             </Disclosure>
         </div>
