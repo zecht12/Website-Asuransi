@@ -20,7 +20,7 @@ export default function Homepage () {
         <div className='md:flex px-12 py-4 w-full items-center justify-between'>
             <ul className='flex '>
                 <li className='text-2xl pr-1 font-bold'>Informasi</li>
-                <li className='text-2xl'>Terkini</li>
+                <li className='text-2xl font-semibold'>Terkini</li>
             </ul>
             <ul className='flex items-center justify-between'>
                 <li className='pr-24 text-xl font-bold'>Berita</li>
