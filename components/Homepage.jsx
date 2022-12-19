@@ -12,19 +12,19 @@ export default function Homepage () {
                 <div>
                     <Image src={Kesehatan}/>
                 </div>
-                <div className='grid text-6xl'>
+                <div className='grid text-3xl md:text-6xl'>
                     Perlindungan Kesehatan yang Fleksibel dan Komprehensif
                 </div>
             </div>
         </div>
         <div className='md:flex px-12 py-4 w-full items-center justify-between'>
-            <ul className='flex '>
-                <li className='text-2xl pr-1 font-bold'>Informasi</li>
-                <li className='text-2xl font-semibold'>Terkini</li>
+            <ul className='flex'>
+                <li className='md:text-2xl text-base pr-1 font-bold'>Informasi</li>
+                <li className='md:text-2xl text-base font-semibold'>Terkini</li>
             </ul>
             <ul className='flex items-center justify-between'>
-                <li className='pr-24 text-xl font-bold'>Berita</li>
-                <li className='pr-16 text-xl font-bold'>Artikel</li>
+                <li className='pr-24 md:text-2xl text-base font-bold'>Berita</li>
+                <li className='pr-16 md:text-2xl text-base font-bold'>Artikel</li>
             </ul>
         </div>
         <div className=' grid md:grid-cols-2 gap-8 py-16 px-10 justify-center items-center w-full'>
