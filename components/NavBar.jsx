@@ -106,7 +106,7 @@ return (
 
     return (
     <div>
-        <div className={nav ?  "fixed w-screen h-20 shadow-xl z-[100] bg-transparent" : " bg-transparent fixed w-screen h-20 shadow-xl z-[100]"}>
+        <div className={nav ?  "fixed w-full h-20 shadow-xl z-[100] bg-transparent" : " bg-transparent fixed w-full h-20 shadow-xl z-[100]"}>
             <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16'>
                 <div>
                     <div className='pb-10'>
