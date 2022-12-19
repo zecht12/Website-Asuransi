@@ -7,12 +7,14 @@ import Keluarga from '../public/assets/uhh.jpg'
 export default function Homepage () {
   return (
     <div className='h-full w-full'>
-        <div className='h-auto w-auto grid md:grid-cols-2 py-4 gap-4 pt-32'>
-            <div>
-                <Image src={Kesehatan}/>
-            </div>
-            <div className='grid text-6xl'>
-            Perlindungan Kesehatan yang Fleksibel dan Komprehensif
+        <div className='h-auto w-full'>
+            <div className='grid md:grid-cols-2 py-4 gap-4 pt-32'>
+                <div>
+                    <Image src={Kesehatan}/>
+                </div>
+                <div className='grid text-6xl'>
+                    Perlindungan Kesehatan yang Fleksibel dan Komprehensif
+                </div>
             </div>
         </div>
         <div className='md:flex px-12 py-4 w-full items-center justify-between'>

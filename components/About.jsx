@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const About = () => {
 return (
-  <div className='w-full md:h-screen bg-blue-200'>
-    <div id='about' className=' w-full h-auto px-16 pt-32'>
+    <div className='min-h-screen w-full bg-blue-200 px-12 py-16'>
+      <div id='about' className='h-full'>
       <div className='grid md:grid-cols-4 gap-24'>
       <div>
         <span className='text-2xl font-bold'>Produk Kami</span>
@@ -57,9 +57,9 @@ return (
           <div className="py-4 text-black/90 text-xl">
             <a href='https://wa.me/6285865130221'>Whatsapp</a>
           </div>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 )
 }
