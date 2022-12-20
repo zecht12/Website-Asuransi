@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const About = () => {
 return (
-    <div className='min-h-screen w-full bg-blue-200 px-12 py-16'>
+    <div className='min-h-auto w-full bg-blue-200 px-12 py-16'>
       <div id='about' className='h-full'>
       <div className='grid md:grid-cols-4 md:gap-24 gap-8'>
       <div>
