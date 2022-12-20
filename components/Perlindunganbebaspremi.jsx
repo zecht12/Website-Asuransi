@@ -9,7 +9,7 @@ export default function Perlindunganbebaspremi () {
             PERLINDUNGAN BEBAS PREMI
         </div>
         <form className="mt-8 " action="#" method="POST">
-        <div className=' grid md:grid-cols-2 gap-96'>
+        <div className=' grid md:grid-cols-2 md:gap-96 gap-8'>
         <div>
             <input type="hidden" name="remember" defaultValue="true" />
             <span className=''>Nama yang ingin diklaim asuransinya</span>

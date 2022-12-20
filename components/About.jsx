@@ -5,7 +5,7 @@ const About = () => {
 return (
     <div className='min-h-screen w-full bg-blue-200 px-12 py-16'>
       <div id='about' className='h-full'>
-      <div className='grid md:grid-cols-4 gap-24'>
+      <div className='grid md:grid-cols-4 md:gap-24 gap-8'>
       <div>
         <span className='text-2xl font-bold'>Produk Kami</span>
           <div className="py-4 pt-16 text-black/90 text-xl">

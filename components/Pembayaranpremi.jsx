@@ -8,7 +8,7 @@ export default function Pembayaranpremi () {
                 <span className='text-2xl font-bold'>Pembayaran premi</span>
             </div>
             <form className="mt-8 px-16 " action="#" method="POST">
-        <div className='grid md:grid-cols-2 gap-96'>
+        <div className='grid md:grid-cols-2 md:gap-96 gap-8'>
         <div>
             <input type="hidden" name="remember" defaultValue="true" />
             <span className=''>Masukan Nama Lengkap</span>
