@@ -12,22 +12,22 @@ export default function Tanggungjawabkami () {
                 </div>
                 <div>
                     <div>
-                        <span className='text-4xl font-bold'>Tanggung jawab Kami</span>
+                        <span className='md:text-4xl text-xl font-bold'>Tanggung jawab Kami</span>
                     </div>
                     <div className='pt-4'>
-                        <span className='text-2xl'>Perusahaan kami berkomitmen dalam membangun Indonesia melalui program sosial pada bidang pendidikan, kesehatan, dan pemberdayaan masyarakat.</span>
+                        <span className='md:text-2xl text-lg'>Perusahaan kami berkomitmen dalam membangun Indonesia melalui program sosial pada bidang pendidikan, kesehatan, dan pemberdayaan masyarakat.</span>
                     </div>
                     <div className='pt-12 pb-8'>
-                        <span className='text-2xl'>Prinsip kami:</span>
+                        <span className='md:text-2xl text-lg'>Prinsip kami:</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>1. Melayani masyarakat yang membutuhkan.</span>
+                        <span className='md:text-2xl text-lg'>1. Melayani masyarakat yang membutuhkan.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>2. Melayani hingga tuntas.</span>
+                        <span className='md:text-2xl text-lg'>2. Melayani hingga tuntas.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>3. Melayani secara adil dan tanpa pandang apapun.</span>
+                        <span className='md:text-2xl text-lg'>3. Melayani secara adil dan tanpa pandang apapun.</span>
                     </div>
                 </div>
             </div>

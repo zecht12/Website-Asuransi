@@ -6,12 +6,12 @@ export default function Mitrabisnis () {
   return (
     <div className='h-full w-full'>
         <div className="h-auto w-auto">
-            <div className='text-4xl text-center font-bold pt-28'>
+            <div className='md:text-4xl text-xl text-center font-bold pt-28'>
                 Mitra Bisnis Kami
             </div>
             <div className="grid md:grid-cols-2 gap-56">
                 <div>
-                    <div className='text-xl text-center font-bold pt-12 pr-32'>
+                    <div className='md:text-xl text-base text-center font-bold pt-12 pr-32'>
                         Mitra Bisnis Kami
                     </div>
                     <div className='pt-4 pl-16 px-16'>
@@ -28,7 +28,7 @@ export default function Mitrabisnis () {
                     </div>
                 </div>
                 <div >
-                    <div className='text-xl text-center font-bold pt-12'>
+                    <div className='md:text-xl text-base text-center font-bold pt-12'>
                         Kinerja kami selama bersama mitra bisnis
                     </div>
                     <div className='pt-4 pl-16 px-16'>
@@ -42,7 +42,7 @@ export default function Mitrabisnis () {
                     </div>
                 </div>
             </div>
-            <div className='text-4xl text-center font-bold pt-12'>
+            <div className='md:text-4xl text-xl text-center font-bold pt-12'>
                 Potret kebersamaan kami bersama mitra bisnis
             </div>
             <div className='grid md:grid-cols-2 pt-4 pb-24 px-10'>

@@ -12,22 +12,22 @@ export default function Kebijakankami () {
                 </div>
                 <div>
                     <div>
-                        <span className='text-4xl font-bold'>Kebijakan Kami</span>
+                        <span className='md:text-4xl text-xl font-bold'>Kebijakan Kami</span>
                     </div>
                     <div className='pt-12'>
-                        <span className='text-2xl'>1. Kami menolak suap dalam bentuk apapun.</span>
+                        <span className='md:text-2xl text-lg'>1. Kami menolak suap dalam bentuk apapun.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>2. Reformasi bertahap secara konstan.</span>
+                        <span className='md:text-2xl text-lg'>2. Reformasi bertahap secara konstan.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>3. Pengelolaan tataan perusahaan yang baik dan benar.</span>
+                        <span className='md:text-2xl text-lg'>3. Pengelolaan tataan perusahaan yang baik dan benar.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>4. Pemaparan hasil secara adil dan tanpa rekayasa.</span>
+                        <span className='md:text-2xl text-lg'>4. Pemaparan hasil secara adil dan tanpa rekayasa.</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='text-2xl'>5. Tolak adanya penyiksaan dan kemerataan hak baik untuk karyawan maupun manager.</span>
+                        <span className='md:text-2xl text-lg'>5. Tolak adanya penyiksaan dan kemerataan hak baik untuk karyawan maupun manager.</span>
                     </div>
                 </div>
             </div>

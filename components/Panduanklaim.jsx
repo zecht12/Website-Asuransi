@@ -11,11 +11,11 @@ export default function Panduanklaim () {
                 <div>
                     <Image src={Kesehatan}/>
                 </div>
-                <div className='grid text-6xl'>
+                <div className='grid md:text-6xl text-2xl'>
                     Klaim Asuransi di Perusahaan Kami Yang Mudah Dan Cepat
                 </div>
             </div>
-            <div className='text-4xl text-center font-bold'>
+            <div className='md:text-4xl text-xl text-center font-bold'>
                 Ketentuan Klaim
             </div>
             <div className='pt-4 pl-16 px-16'>
@@ -33,20 +33,20 @@ export default function Panduanklaim () {
             <div className='pt-4 pl-16 pb-20 px-16'>
                 <span className='text-xl'>5. Dana akan cair setelah 12 jam konfirmasi.</span>
             </div>
-            <div className='text-4xl text-center font-bold pb-10'>
+            <div className='md:text-4xl text-xl text-center font-bold pb-10'>
                 Klaim asuransi dibawah ini
             </div>
             <div className='flex justify-between items-center pt-4 px-8 pb-16'>
-            <div className="py-4 text-black/90 text-xl font-bold">
+            <div className="py-4 text-black/90 md:text-xl text-base font-bold">
                 <Link href='./Pageasuransijiwa'>Asuransi Jiwa</Link>
             </div>
-            <div className="py-4 text-black/90 text-xl font-bold">
+            <div className="py-4 text-black/90 md:text-xl text-base font-bold">
                 <Link href='./Pageasuransikesehatan'>Asuransi Kesehatan</Link>
             </div>
-            <div className="py-4 text-black/90 text-xl font-bold">
+            <div className="py-4 text-black/90 md:text-xl text-base font-bold">
                 <Link href='./Pageasuransipendidikan'>Pendidikan</Link>
             </div>
-            <div className="py-4 text-black/90 text-xl font-bold">
+            <div className="py-4 text-black/90 md:text-xl text-base font-bold">
                 <Link href='./Pageperlindunganbebaspremi'>Perlindungan Bebas Premi</Link>
             </div>
             </div>
