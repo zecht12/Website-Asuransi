@@ -97,7 +97,7 @@ export default function Pembayaranpremi () {
                         </label>
                     </li>
                 </ul>
-                <ul class="grid gap-6 w-full md:grid-cols-2 px-20 pt-10">
+                <ul class="grid gap-6 w-full md:grid-cols-2 md:px-16 mr-20 pt-10">
                     <li>
                         <input type="checkbox" id="BNI" value="" className='hidden peer' required=""/>
                         <label for="BNI" className="inline-flex justify-between items-center p-5 w-full text-gray-900 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-900 dark:border-gray-300 peer-checked:border-blue-600 hover:text-gray-900 dark:peer-checked:text-gray-900 peer-checked:text-gray-900 hover:bg-gray-50 dark:text-gray-900 dark:bg-white dark:hover:bg-gray-300">                           
