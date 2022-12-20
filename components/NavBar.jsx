@@ -8,13 +8,6 @@ import {AiOutlineDown} from 'react-icons/ai'
 
 
 const NavBar = () => {
-    const [nav, setNav] = useState(false)
-
-
-    const handleNav = () => {
-        setNav(!nav)
-    }
-
     const [open, setOpen] = useState(false)
 
     const clickPoint = useRef();
@@ -106,7 +99,7 @@ return (
 
     return (
     <div>
-        <div className={nav ?  "fixed w-full h-20 shadow-xl z-[100] bg-transparent" : " bg-transparent fixed w-full h-20 shadow-xl z-[100]"}>
+        <div className="fixed w-full h-20 shadow-xl z-[100] bg-transparent" >
             <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16'>
                 <div>
                     <div className='pb-10'>
