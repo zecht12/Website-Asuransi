@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Hubungikami () {
   return (
-    <div className='h-full w-full'>
+    <div className='min-h-screen w-full'>
         <div className='h-auto w-auto'>
         <div className='pt-28 pb-12 text-center'>
                 <span className='md:text-4xl text-xl font-bold'>Hubungi kami</span>
